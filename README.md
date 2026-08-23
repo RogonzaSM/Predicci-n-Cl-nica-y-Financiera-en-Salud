@@ -59,9 +59,10 @@ from sklearn.ensemble import RandomForestClassifier
 
 model = RandomForestClassifier()
 model.fit(X_train, y_train)
-predictions = model.predict(X_test)```
-
-
+predictions = model.predict(X_test)
+```
+---
+Markdown
 ### 3. Regresión de Costos y Riesgo de Hospitalización Prolongada
 La regresión predice valores numéricos y se usa para estimar la **facturación hospitalaria**.  
 Además, se modela el **riesgo de hospitalización prolongada** como un problema de clasificación binaria:  
@@ -75,4 +76,32 @@ from sklearn.ensemble import GradientBoostingRegressor
 reg_model = GradientBoostingRegressor()
 reg_model.fit(X_train, y_train)
 cost_pred = reg_model.predict(X_test)
+```
+
+---
+Markdown
+### 4. Explicabilidad del Modelo
+En salud no basta con predecir, hay que **explicar**.  
+Se usan técnicas como **SHAP** o **LIME** para mostrar qué variables influyen más en cada predicción.  
+Ejemplo: la edad y condición médica pueden ser determinantes en la duración de la estancia.  
+
+Esto aporta transparencia y confianza, permitiendo que médicos y administradores comprendan las razones detrás de cada resultado.
+
+---
+
+### 5. Impacto Social y Financiero
+- **Pacientes**: reciben atención adecuada sin quedar endeudados.  
+- **Hospitales**: reducen pérdidas por deudas no cubiertas.  
+- **Aseguradoras**: ajustan coberturas de forma más eficiente.  
+
+Este enfoque busca un equilibrio entre la **prioridad clínica** y la **sostenibilidad económica**, generando beneficios para todos los actores del sistema de salud.
+
+---
+
+### 6. Conclusión del Marco Teórico
+El uso de machine learning en salud permite integrar predicciones clínicas y financieras en un mismo sistema.  
+Este proyecto demuestra cómo la combinación de **clasificación, regresión, explicabilidad e impacto social** puede transformar la gestión hospitalaria, priorizando la salud del paciente y asegurando la viabilidad económica de hospitales y aseguradoras.
+
+
+
 
