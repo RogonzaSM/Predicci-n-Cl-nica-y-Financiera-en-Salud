@@ -59,7 +59,7 @@ from sklearn.ensemble import RandomForestClassifier
 
 model = RandomForestClassifier()
 model.fit(X_train, y_train)
-predictions = model.predict(X_test)
+predictions = model.predict(X_test)```
 
 
 ### 3. Regresión de Costos y Riesgo de Hospitalización Prolongada
