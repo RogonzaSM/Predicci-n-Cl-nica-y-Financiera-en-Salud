@@ -61,3 +61,18 @@ model = RandomForestClassifier()
 model.fit(X_train, y_train)
 predictions = model.predict(X_test)
 
+
+### 3. Regresión de Costos y Riesgo de Hospitalización Prolongada
+La regresión predice valores numéricos y se usa para estimar la **facturación hospitalaria**.  
+Además, se modela el **riesgo de hospitalización prolongada** como un problema de clasificación binaria:  
+- **Estancia corta** (≤ 7 días)  
+- **Estancia prolongada** (> 7 días)  
+
+Ejemplo:  
+```python
+from sklearn.ensemble import GradientBoostingRegressor
+
+reg_model = GradientBoostingRegressor()
+reg_model.fit(X_train, y_train)
+cost_pred = reg_model.predict(X_test)
+
