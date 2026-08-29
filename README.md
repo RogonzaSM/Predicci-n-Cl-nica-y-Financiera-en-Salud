@@ -15,7 +15,7 @@ Actualmente, muchos hospitales carecen de herramientas predictivas que integren 
 ---
 
 # 🎯 Objetivo del Proyecto
-**Desarrollar un sistema predictivo integral que permita optimizar la atención hospitalaria y la gestión financiera en salud, combinando tres dimensiones clave:**
+**Tomando una base de datos de simulacion sobre pacientes de hospitales de Estados Unidos, desarrollar un sistema predictivo integral que permita optimizar la atención hospitalaria y la gestión financiera en salud, combinando tres dimensiones clave:**
 
 1. **Clasificación de resultados clínicos** para identificar de forma temprana condiciones anormales y priorizar la atención de pacientes con mayor urgencia.  
 2. **Predicción de costos hospitalarios** con el fin de estimar la facturación asociada a cada ingreso y anticipar posibles escenarios financieros.  
